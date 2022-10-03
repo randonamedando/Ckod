@@ -20,7 +20,7 @@ int main(){
     return 0;
 }
 
-void printmatrix(int **mat,int ss){
+void printmatrix(int **mat,int ss){ //funkcija za printovanje matrice
     int i;
     for(i = 0; i<ss; i++){
         printf("%d %d\n",mat[i][0],mat[i][1]);
